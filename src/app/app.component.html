@@ -1,4 +1,22 @@
+<h1>Formulario</h1>
 
+<form>
+  <div class="input-group">
+    <label for="name">Nombre</label>
+    <input type="text" required id="name" [(ngModel)]="register.name">
+    <p>Mensajes de error</p>
+  </div>
+  <div class="input-group">
+    <label for="email">Email</label>
+    <input type="email" required id="email" [(ngModel)]="register.email">
+    <p>Mensajes de error</p>
+  </div>
+  <div class="input-group">
+    <label for="passwprd">Nombre</label>
+    <input type="password" required id="password" [(ngModel)]="register.password">
+    <p>Mensajes de error</p>
+  </div>
+</form>
 
 <div class="imgWidth">
   <div>

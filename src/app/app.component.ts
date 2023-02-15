@@ -11,6 +11,11 @@ export class AppComponent {
   age: number = 18;
   img: string = 'https://www.w3schools.com/howto/img_avatar.png';
   btnDisabled: boolean = true;
+  register = {
+    name: "",
+    email: "",
+    password: ""
+  }
   person = {
     name: 'Nicolas',
     age: 18,
